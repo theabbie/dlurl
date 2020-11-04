@@ -1,0 +1,27 @@
+{
+  "name": "dlurl",
+  "version": "1.0.0",
+  "description": "Download URL and return File Path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"working\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theabbie/dlurl.git"
+  },
+  "keywords": [
+    "dlurl",
+    "theabbie",
+    "download",
+    "url",
+    "fetch",
+    "url"
+  ],
+  "author": "theabbie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theabbie/dlurl/issues"
+  },
+  "homepage": "https://github.com/theabbie/dlurl#readme"
+}
