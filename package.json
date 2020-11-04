@@ -1,6 +1,6 @@
 {
   "name": "dlurl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download URL and return File Path",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/theabbie/dlurl/issues"
   },
-  "homepage": "https://github.com/theabbie/dlurl#readme"
+  "homepage": "https://github.com/theabbie/dlurl#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "mime-db": "^1.45.0"
+  }
 }

@@ -7,7 +7,7 @@ Download URL and return File Path
 ## How to use
 
 ```js
-var dl = require("dl");
+var dl = require("dlurl");
 
 (async function() {
 var path = await dl(url[,name]);
@@ -32,10 +32,11 @@ You can contact me on social media, Everything about me can be found [here](http
 ### Dev Dependencies
 
 * Axios
+* mime-db
 
 ## Credits
 
-* [RantScript](https://github.com/leahlundqvist/RantScript/) For Creating an excellent Wrapper For the DevRant API.
+* [Axios](https://www.npmjs.com/package/axios) For Creating an excellent Fetching module.
 
 ## Contact
 
