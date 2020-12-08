@@ -3,7 +3,7 @@ var axios = require("axios");
 var fs = require("fs");
 var up = require("url");
 
-module.exports = async function(url) {
+module.exports = async function(url,cname) {
   try {
     const response = await axios({
       url,
@@ -12,6 +12,7 @@ module.exports = async function(url) {
     });
     var ext = mdb[response.headers["content-type"].split(";")[0].trim()];
     var name = "file"+Math.floor(1000*Math.random())+"."+ext.extensions[0];
+    if (cname) name = cname;
     var writer = fs.createWriteStream(name);
     response.data.pipe(writer);
     return new Promise((resolve, reject) => {

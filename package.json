@@ -1,11 +1,12 @@
 {
   "name": "dlurl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Download URL and return File Path",
   "main": "index.js",
   "scripts": {
     "test": "echo \"working\""
   },
+  "funding": "https://theabbie.github.io",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theabbie/dlurl.git"
